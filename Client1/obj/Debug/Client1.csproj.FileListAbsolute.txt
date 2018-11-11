@@ -1,0 +1,6 @@
+F:\Exam 10Th\Client1\obj\Debug\Client1.csproj.CoreCompileInputs.cache
+F:\Exam 10Th\Client1\bin\Debug\Client1.exe.config
+F:\Exam 10Th\Client1\bin\Debug\Client1.exe
+F:\Exam 10Th\Client1\bin\Debug\Client1.pdb
+F:\Exam 10Th\Client1\obj\Debug\Client1.exe
+F:\Exam 10Th\Client1\obj\Debug\Client1.pdb

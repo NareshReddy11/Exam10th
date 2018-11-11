@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script language="JavaScript">
+        document.writeln("<h1>Welcome to Home Page</h1>");
+        var parameters = window.location.search.substring(1).split("&");
+        parameters = parameters.filter(e => !(e === undefined));
+      //  document.writeln(parameters);
+       var temp = parameters[0].split("=");
+        l = unescape(temp[1]);
+        temp = parameters[1].split("=");
+        p = unescape(temp[1]);
+        temp = parameters[2].split("=");
+        ph = unescape(temp[1]);
+        temp = parameters[3].split("=");
+        age = unescape(temp[1]);
+        document.writeln("<br><b>Your Name Is :</b>");
+        document.writeln(l);
+        document.writeln("<br><b> Youer Password is :</b>");
+        document.writeln(p); 
+        document.writeln("<br> <b>Your Age is :</b>");
+        document.writeln(ph); 
+        document.writeln("<br> <b>Your Phone Number is :</b>");
+        document.writeln(age); 
+
+    </script>
+</head>
+<body>
+   
+</body>
+</html>

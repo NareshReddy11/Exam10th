@@ -1,0 +1,112 @@
+﻿<html>
+<head>
+    <style>
+        table {
+            font-family: Calibri;
+            color: white;
+            font-size: 11pt;
+            font-style: normal;
+            font-weight: bold;
+            text-align: initial;
+            background-color: orangered;
+            border-collapse: collapse;
+            border: 0px solid navy
+        }
+
+            table.inner {
+                border: 0px
+            }
+    </style>
+
+    <script type="text/javascript">
+        function fun() {
+
+            var mail = document.forms["myform"]["ED"];
+            var pass = document.forms["myform"]["PS"];
+            var phone = document.forms["myform"]["PN"];
+            var Age = document.forms["myform"]["AGE"];
+            var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.]{5,})+\.([A-Za-z]{2,})$/;
+            var ps = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[#$@!%&*?])[A-Za-z\d#$@!%&*?]{8,}$/;
+
+            var ph = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+            var ag = /[0-9]{3,}/;
+
+            if (mail.value == "") {
+                window.alert("Please enter Email Address");
+                mail.focus();
+                return false;
+            }
+            else if (!(mail.value.match(reg))) {
+                window.alert("Please enter valid Email Address");
+                mail.focus();
+                return false;
+            }
+            if (pass.value == "") {
+                window.alert("Please enter Password");
+                pass.focus();
+                return false;
+            }
+            else if (!(pass.value.match(ps))) {
+                window.alert("Please enter valid Password");
+                pass.focus();
+                return false;
+            }
+            if (phone.value == "") {
+                window.alert("Please enter youer phone number");
+                phone.focus();
+                return false;
+            }
+            else if (!(phone.value.match(ph))) {
+                window.alert("Please enter your Valid Phone Number");
+                phone.focus();
+                return false;
+            }
+            if ((Age.value == "")) {
+                window.alert("Please enter your Age");
+                Age.focus();
+                return false;
+            }
+            else if (Age.value.match(ag)) {
+                window.alert("Please enter valide Age");
+                Age.focus();
+                return false;
+            }
+        }
+    </script>
+
+</head>
+
+<body bgcolor="skyblue">
+    <form action="succ.html" name="myform" onsubmit="return fun()">
+        <h2> <font color="yellow" ><center> REGISTRATION FORM</center></font></h2>
+        <table align="center" cellpadding="10">
+
+            <tr>
+                <td>EMAIL ADDRESS</td>
+                <td><input type="text" name="ED" maxlength="100" /></td>
+            </tr>
+            <tr>
+                <td>PASSWORD</td>
+                <td><input type="password" name="PS" /></td>
+            </tr>
+            <tr>
+                <td>AGE</td>
+                <td><input type="number" name="AGE" maxlength="3" /></td>
+            </tr>
+            <tr>
+                <td>PHONE NUMBER</td>
+                <td>
+                    <input type="number" name="PN" maxlength="10" />
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Reset" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

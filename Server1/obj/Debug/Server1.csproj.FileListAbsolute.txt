@@ -1,0 +1,7 @@
+F:\Exam 10Th\Server1\bin\Debug\Server1.exe.config
+F:\Exam 10Th\Server1\bin\Debug\Server1.exe
+F:\Exam 10Th\Server1\bin\Debug\Server1.pdb
+F:\Exam 10Th\Server1\obj\Debug\Server1.csprojAssemblyReference.cache
+F:\Exam 10Th\Server1\obj\Debug\Server1.csproj.CoreCompileInputs.cache
+F:\Exam 10Th\Server1\obj\Debug\Server1.exe
+F:\Exam 10Th\Server1\obj\Debug\Server1.pdb

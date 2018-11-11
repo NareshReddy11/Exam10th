@@ -1,0 +1,12 @@
+F:\Exam 10Th\Exam biz Runtime\Exam biz Runtime\bin\Debug\Exam biz Runtime.exe.config
+F:\Exam 10Th\Exam biz Runtime\Exam biz Runtime\bin\Debug\Exam biz Runtime.exe
+F:\Exam 10Th\Exam biz Runtime\Exam biz Runtime\bin\Debug\Exam biz Runtime.pdb
+F:\Exam 10Th\Exam biz Runtime\Exam biz Runtime\bin\Debug\Newtonsoft.Json.dll
+F:\Exam 10Th\Exam biz Runtime\Exam biz Runtime\bin\Debug\Vse.Web.Serialization.dll
+F:\Exam 10Th\Exam biz Runtime\Exam biz Runtime\bin\Debug\Newtonsoft.Json.xml
+F:\Exam 10Th\Exam biz Runtime\Exam biz Runtime\bin\Debug\Vse.Web.Serialization.pdb
+F:\Exam 10Th\Exam biz Runtime\Exam biz Runtime\obj\Debug\Exam biz Runtime.csprojAssemblyReference.cache
+F:\Exam 10Th\Exam biz Runtime\Exam biz Runtime\obj\Debug\Exam biz Runtime.csproj.CoreCompileInputs.cache
+F:\Exam 10Th\Exam biz Runtime\Exam biz Runtime\obj\Debug\Exam biz Runtime.csproj.CopyComplete
+F:\Exam 10Th\Exam biz Runtime\Exam biz Runtime\obj\Debug\Exam biz Runtime.exe
+F:\Exam 10Th\Exam biz Runtime\Exam biz Runtime\obj\Debug\Exam biz Runtime.pdb
